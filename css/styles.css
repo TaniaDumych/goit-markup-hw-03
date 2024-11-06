@@ -31,11 +31,6 @@ line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-margin-bottom: 24px;
-margin-top: 24px;
-padding-left: 156px;
-padding-top: 25,5px;
-padding-bottom: 25,5px;
 }
 .nav-accent {
 font-family: "Raleway", sans-serif;
@@ -45,10 +40,6 @@ line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
-margin-bottom: 24px;
-margin-top: 24px;
-padding-top: 25,5px;
-padding-bottom: 25,5px;
 }
 .nav-logo-accent:hover {
 background-color: #404BBF;
@@ -60,9 +51,6 @@ background-color: #404BBF;
 color: #2e2f42;
 text-decoration: none;
 list-style-type: none;
-width: 261px;
-padding-top: 24px;
-padding-bottom: 24px;
 }
 .nav-link {
 font-family: "Roboto", sans-serif;
@@ -71,9 +59,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
-margin-top: 24px;
-margin-bottom: 24px;
-margin-right: 40px;
 }
 .nav-link:hover {
  color: #404BBF;
@@ -91,10 +76,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-margin-right: 332px;
-margin-left: 40px;
-margin-top: 24px;
-margin-bottom: 24px;
 }
 .address-link {
 font-family: "Roboto", sans-serif;
@@ -105,10 +86,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 text-align: right;
-margin-right: 332px;
-margin-left: 40px;
-margin-top: 24px;
-margin-bottom: 24px;
 
 }
 .address-link {
@@ -120,9 +97,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 text-align: right;
-margin-top: 24px;
-margin-bottom: 24px;
-margin-right: 156px;
 
 }
 .address-link:hover {
@@ -146,10 +120,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
-margin-top: 188px;
-margin-right: 472px;
-margin-bottom: 292px;
-margin-left: 472px;
+
 }
 .order-button {
 line-height: 1.5;
@@ -162,12 +133,7 @@ line-height: 150%;
 color: #fff;
 text-align: center;
 margin-top: 46px;
-margin-right: 635px;
-margin-bottom: 188px;
-margin-left: 636px;
-border-radius: 4px;
-padding: 16px 32px;
-width: 169px;
+
 }
 .order-button:hover{
 background-color: #404BBF;
