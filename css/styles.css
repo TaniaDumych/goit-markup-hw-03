@@ -13,6 +13,9 @@ a {
 background-color: #ffffff;
 unicode-bidi: isolate;
 text-align: center;
+max-width: 1150px;
+padding: 0 15px;
+margin: 0 auto;
 }
 .header-nav {
 background: #ffffff;
