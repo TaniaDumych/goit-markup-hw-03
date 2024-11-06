@@ -10,17 +10,15 @@ a {
     text-decoration: none;
 }
 .container {
-background-color: #ffffff;
 unicode-bidi: isolate;
-text-align: center;
 max-width: 1128px;
 padding: 15px 15px;
 margin: 0 auto;
+width: 100%;
 }
 .header-nav {
 background: #ffffff;
 border-bottom: 1px solid #e7e9fc;
-display: flex;
 justify-content: space-between;
 align-items: center;
 }
@@ -33,9 +31,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 display: flex;
-gap: 40px;
 padding: 24px 0 24px;
 margin-right: 76px;
+margin-left: 156px;
 }
 .nav-accent {
 font-family: "Raleway", sans-serif;
@@ -47,7 +45,6 @@ text-transform: uppercase;
 color: #2e2f42;
 display: flex;
 gap: 40px;
-padding: 24px 0 24px;
 }
 .nav-logo-accent:hover {
 background-color: #404BBF;
@@ -70,9 +67,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
-display: block;
+display: flex
 align-items: center;
 padding: 24px 0;
+gap: 40px;
 }
 .nav-link:hover {
  color: #404BBF;
@@ -121,6 +119,7 @@ padding-top: 188px;
 text-align: center;
 width: 1440px;
 padding: 0;
+width: 1440px;
 }
 .hero-title {
 font-family: "Roboto", sans-serif;
@@ -133,6 +132,7 @@ color: #ffffff;
 margin-bottom: 48px;
 margin: 0 auto;
 display: block;
+padding-top: 191px;
 
 }
 .order-button {
@@ -149,6 +149,9 @@ margin-top: 46px;
 display: block;
 border: none;
 border-radius: 4px;
+margin-bottom: 188px;
+padding: 16px 32px;
+height: 56px;
 
 }
 .order-button:hover{
