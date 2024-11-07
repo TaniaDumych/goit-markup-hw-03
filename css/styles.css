@@ -158,14 +158,9 @@ cursor: pointer;
 background-color: #404BBF;
 cursor: pointer;
 }
-#opportanities {
-font-family: "Roboto", sans-serif;
-background-color:#ffffff;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
+#opportanities .name-opportunities {
+display: flex;
+gap: 24px;
 }
 
 .opportunities-section {
@@ -199,10 +194,17 @@ text-align: center;
 letter-spacing: 0.02em;
 color: #2e2f42;
 text-transform: capitalize;
+padding-top: 120px;
+margin-bottom: 72px;
 
 }
 .team-list {
 background-color: #ffffff;
+border-radius: 0 0 4px 4px;
+padding: 0px 0px 32px 0px;
+width: 264px;
+height: 380px;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 
  }
 .name-team {
@@ -214,6 +216,10 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 background-color: #ffffff;
+margin-top: 32px;
+margin-right: 42px;
+margin-left: 42px;
+margin-bottom: 8px;
 }
 .team-profession {
 font-family: "Roboto", sans-serif;
@@ -230,6 +236,7 @@ overflow: hidden;
 border-color: rgba(231, 233, 252, 1);
 text-decoration: none;
 color: inherit;
+padding-top: 133px;
 } 
 .portfolio-section {
 font-family: "Roboto", sans-serif;
