@@ -5,22 +5,37 @@ background-color: #ffffff;
 }
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+margin: 0;
 }
 a {
     text-decoration: none;
 }
 .container {
-unicode-bidi: isolate;
 max-width: 1128px;
-padding: 15px 15px;
-margin: 0 auto;
-width: 100%;
+padding-left: 15px;
+padding-right: 15px;
+margin-left:  auto;
+margin-right: auto;
+}
+.page-header {
+ border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+display: flex;
+align-items: center;
 }
 .header-nav {
 background: #ffffff;
-border-bottom: 1px solid #e7e9fc;
-justify-content: space-between;
+display: flex;
 align-items: center;
+}
+.header-logo {
+padding: 24px 0;
+margin-right: 76px;
 }
 .nav-logo {
 font-family: "Raleway", sans-serif;
@@ -31,9 +46,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 display: flex;
-padding: 24px 0 24px;
-margin-right: 76px;
-margin-left: 156px;
 }
 .nav-accent {
 font-family: "Raleway", sans-serif;
@@ -53,24 +65,19 @@ background-color: #404BBF;
 background-color: #404BBF;
 }
 .nav-menu {
-color: #2e2f42;
-text-decoration: none;
-list-style-type: none;
 display: flex;
+align-items: center;
 gap: 40px;
-display: flex;
 }
 .nav-link {
+padding: 24px 0;
+display: block;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
-display: flex
-align-items: center;
-padding: 24px 0;
-gap: 40px;
 }
 .nav-link:hover {
  color: #404BBF;
@@ -81,20 +88,12 @@ color: #404BBF;
 .address-menu {
 font-style: normal;
 display: flex;
-justify-content: space-between;
 margin-left: auto;
-align-items: center;
-gap: 40px;
+
 }
 .address-menu-link {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
 display: flex;
-gap: 40px;
+align-items: center;
 }
 .address-link {
 font-family: "Roboto", sans-serif;
@@ -104,8 +103,11 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-text-align: right;
-display: flex;
+display: block;
+padding: 24px 0;
+align-items: center;
+gap: 40px;
+
 }
 .address-link:hover {
 color: #404BBF;
