@@ -183,6 +183,7 @@ color: #434455;
 }
 #team {
 background-color: #f4f4fd;
+
 }
 .name-section {
 font-family: "Roboto", sans-serif;
@@ -196,7 +197,11 @@ color: #2e2f42;
 text-transform: capitalize;
 padding-top: 120px;
 margin-bottom: 72px;
-
+}
+.name-team {
+display: flex;
+align-items: center;
+gap: 24px;
 }
 .team-list {
 background-color: #ffffff;
