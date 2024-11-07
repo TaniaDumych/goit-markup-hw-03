@@ -99,6 +99,7 @@ letter-spacing: 0.02em;
 color: #434455;
 display: block;
 align-items: center;
+gap: 40px;
 
 }
 .address-link:hover {
