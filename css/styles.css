@@ -180,13 +180,22 @@ cursor: pointer;
 display: flex;
 padding: 120px;
 }
-.opportunities-section-one {
-
+.visually-hidden:not(:focus):not(:active) {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 .name-opportunities {
-display: flex;
 gap: 24px;
 padding-bottom: 120px;
+width: calc((100% - 72px) / 4);
 }
 
 .opportunities-section {
@@ -197,6 +206,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding-bottom: 120px;
 padding-top: 120px;
 margin-bottom: 8px;
 }
@@ -208,6 +218,18 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+.visually-hidden:not(:focus):not(:active) {
+position: absolute;
+width: 1px;
+height: 1px;
+ margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 #team {
 background-color: #f4f4fd;
