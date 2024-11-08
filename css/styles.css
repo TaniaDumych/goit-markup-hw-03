@@ -176,9 +176,12 @@ cursor: pointer;
 background-color: #404BBF;
 cursor: pointer;
 }
-#opportanities {
+#opportanities  {
 display: flex;
 padding: 120px;
+}
+.opportunities-section-one {
+
 }
 .name-opportunities {
 display: flex;
