@@ -123,7 +123,6 @@ background: #2e2f42;
 padding-top: 188px;
 padding-bottom: 188px;
 align-items: center;
-padding: 188px 0;
 display: flex;
 
 }
@@ -137,7 +136,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
 margin-bottom: 48px;
-padding-top: 187px;
+padding: 188px 0;
 justify-content: center;
 margin-left: auto;
 margin-right: auto;
@@ -154,7 +153,6 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 min-width: 169px;
-display: flex;
 }
 .order-service {
 font-family: "Roboto", sans-serif;
@@ -166,7 +164,6 @@ color: #fff;
 text-align: center;
 padding: 16px 32px 16px 32px;
 cursor: pointer;
-display: flex;
 }
 .order-button .order-service:hover{
 background-color: #404BBF;
@@ -233,7 +230,6 @@ overflow: hidden;
 }
 #team {
 background-color: #f4f4fd;
-padding: 120px 0;
 
 }
 .name-section {
@@ -247,6 +243,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 text-transform: capitalize;
 margin-bottom: 72px;
+padding: 120px 0;
 }
 .team-section {
 display: flex;
@@ -261,9 +258,9 @@ padding: 0px 0px 32px 0px;
 width: 264px;
 height: 380px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-width: calc(( 100% - 3 * 24px) / 4);
+width: calc((100% - 72px) / 4);
 
- }
+}
 .name-team {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -345,7 +342,6 @@ border-right: 1px solid #e7e9fc;
 .footer-page {
 background-color: #2e2f42;
 line-height: 1.6;
-padding-top: 100px 0;
 }
 
 .footer-logo {
@@ -381,4 +377,5 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 margin-top: 10px;
 max-width: 264px;
+padding-top: 100px 0;
 }
