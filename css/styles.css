@@ -122,6 +122,7 @@ color: #404BBF;
 background: #2e2f42;
 align-items: center;
 display: flex;
+padding: 188px 0;
 
 }
 .hero-title {
@@ -134,7 +135,6 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
 margin-bottom: 48px;
-padding: 188px 0;
 margin-left: auto;
 margin-right: auto;
 }
@@ -144,7 +144,6 @@ display: block;
 border: none;
 border-radius: 4px;
 margin-top: 45px;
-margin-bottom: 188px;
 height: 56px;
 display: block;
 margin-left: auto;
@@ -200,8 +199,6 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-padding-bottom: 8px;
-padding-top: 120px;
 margin-bottom: 8px;
 }
 .opportunities-text {
@@ -212,7 +209,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-padding-bottom: 120px;
 }
 #team {
 background-color: #f4f4fd;
@@ -229,7 +225,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 text-transform: capitalize;
 margin-bottom: 72px;
-padding top: 120px;
+padding-top: 120px;
 }
 .team-section {
 display: flex;
