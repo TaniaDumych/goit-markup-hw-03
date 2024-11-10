@@ -171,11 +171,10 @@ background-color: #404BBF;
 cursor: pointer;
 }
 #opportanities  {
-display: flex;
-}
-.content-wrapper {
 padding-top: 120px;
 padding-bottom: 120px;
+}
+.content-wrapper {
 }
 .visually-hidden:not(:focus):not(:active) {
 position: absolute;
@@ -190,11 +189,11 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 .name-opportunities {
-width: calc((100% - 72px) / 4);
+ gap: 24px;
 flex-wrap: wrap;
 }
 .opportunities-list {
-gap: 24px;
+width: calc((100% - 72px) / 4);
 }
 .opportunities-section {
 font-family: "Roboto", sans-serif;
