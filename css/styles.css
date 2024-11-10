@@ -122,9 +122,10 @@ color: #404BBF;
 background: #2e2f42;
 align-items: center;
 display: flex;
+}
+.hero-container {
 padding-top: 188px;
 padding-bottom: 188px;
-
 }
 .hero-title {
 max-width: 496px;
@@ -172,6 +173,8 @@ cursor: pointer;
 }
 #opportanities  {
 display: flex;
+}
+.opportunities-container {
 padding: 120px 0;
 }
 .visually-hidden:not(:focus):not(:active) {
@@ -188,8 +191,10 @@ overflow: hidden;
 }
 .name-opportunities {
 gap: 24px;
-flex-basis: calc((100% - 72px) / 4);
 display: flex;
+}
+.opportunities-list {
+flex-basis: calc((100% - 72px) / 4);
 }
 
 .opportunities-section {
