@@ -122,8 +122,6 @@ color: #404BBF;
 background: #2e2f42;
 align-items: center;
 display: flex;
-padding-top: 188px;
-padding-bottom: 188px;
 }
 .hero-container {
 padding-top: 188px;
@@ -179,6 +177,7 @@ display: flex;
 }
 .opportunities-container {
 display: flex;
+padding: 120px 0;
 }
 .visually-hidden:not(:focus):not(:active) {
 position: absolute;
@@ -195,7 +194,6 @@ overflow: hidden;
 .name-opportunities {
 gap: 24px;
 display: flex;
-padding: 120px 0;
 }
 .opportunities-list {
 flex-basis: calc((100% - 72px) / 4);
