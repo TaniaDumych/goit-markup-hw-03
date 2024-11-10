@@ -175,7 +175,7 @@ cursor: pointer;
 display: flex;
 }
 .opportunities-container {
-padding: 120px 0;
+display: flex;
 }
 .visually-hidden:not(:focus):not(:active) {
 position: absolute;
@@ -192,11 +192,11 @@ overflow: hidden;
 .name-opportunities {
 gap: 24px;
 display: flex;
+padding: 120px 0;
 }
 .opportunities-list {
 flex-basis: calc((100% - 72px) / 4);
 }
-
 .opportunities-section {
 font-family: "Roboto", sans-serif;
 background-color: #ffffff;
