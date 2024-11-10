@@ -190,7 +190,8 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 .name-opportunities {
-flex-basis: calc((100% - 72px) / 4);
+width: calc((100% - 72px) / 4);
+flex-wrap: wrap;
 }
 .opportunities-list {
 gap: 24px;
