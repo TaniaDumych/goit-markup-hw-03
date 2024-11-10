@@ -191,6 +191,7 @@ overflow: hidden;
 .name-opportunities {
  gap: 24px;
 flex-wrap: wrap;
+display: flex;
 }
 .opportunities-list {
 width: calc((100% - 72px) / 4);
