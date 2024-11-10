@@ -125,7 +125,7 @@ padding-top: 188px;
 padding-bottom: 188px;
 }
 .hero-container {
-display: flex;
+display: block;
 }
 .hero-title {
 max-width: 496px;
@@ -139,7 +139,6 @@ color: #ffffff;
 margin-bottom: 48px;
 margin-left: auto;
 margin-right: auto;
-padding-top: 188px;
 }
 .order-button {
 background: #4d5ae5;
@@ -148,7 +147,6 @@ border: none;
 border-radius: 4px;
 margin-top: 45px;
 height: 56px;
-display: block;
 margin-left: auto;
 margin-right: auto;
 min-width: 169px;
@@ -173,11 +171,11 @@ background-color: #404BBF;
 cursor: pointer;
 }
 #opportanities  {
-padding-top: 120px;
-padding-bottom: 120px;
+display: flex;
 }
 .opportunities-container {
-display: flex;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .visually-hidden:not(:focus):not(:active) {
 position: absolute;
@@ -196,7 +194,6 @@ flex-basis: calc((100% - 72px) / 4);
 }
 .opportunities-list {
 gap: 24px;
-display: flex;
 }
 .opportunities-section {
 font-family: "Roboto", sans-serif;
