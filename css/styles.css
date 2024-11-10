@@ -121,11 +121,11 @@ color: #404BBF;
 #hero-image {
 background: #2e2f42;
 align-items: center;
-display: flex;
-}
-.hero-container {
 padding-top: 188px;
 padding-bottom: 188px;
+}
+.hero-container {
+display: flex;
 }
 .hero-title {
 max-width: 496px;
@@ -173,11 +173,11 @@ background-color: #404BBF;
 cursor: pointer;
 }
 #opportanities  {
-display: flex;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .opportunities-container {
 display: flex;
-padding: 120px 0;
 }
 .visually-hidden:not(:focus):not(:active) {
 position: absolute;
@@ -192,11 +192,11 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 .name-opportunities {
-gap: 24px;
-display: flex;
+flex-basis: calc((100% - 72px) / 4);
 }
 .opportunities-list {
-flex-basis: calc((100% - 72px) / 4);
+gap: 24px;
+display: flex;
 }
 .opportunities-section {
 font-family: "Roboto", sans-serif;
