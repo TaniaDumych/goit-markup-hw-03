@@ -187,7 +187,7 @@ overflow: hidden;
 gap: 24px;
 display: flex;
 }
-.opportunities-list {
+.opportunities-lists {
 width: calc ((100% - 72px) / 4);
 }
 .opportunities-section {
