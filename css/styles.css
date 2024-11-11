@@ -187,8 +187,8 @@ overflow: hidden;
 gap: 24px;
 display: flex;
 }
-.opportunities {
-width: calc((100% - 72px) / 4);
+.opportunities-list {
+width: calc ((100% - 72px) / 4);
 }
 .opportunities-section {
 font-family: "Roboto", sans-serif;
