@@ -188,7 +188,8 @@ gap: 24px;
 display: flex;
 }
 .opportunities-lists {
-width: calc ((100% - 72px) / 4);
+box-sizing: border-box;
+flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .opportunities-section {
 font-family: "Roboto", sans-serif;
